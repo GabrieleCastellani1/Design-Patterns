@@ -4,6 +4,7 @@ public final class Singleton {
         private static Singleton instance;
         public String value;
 
+        //This implementation is not thread safe!
         private Singleton(String value) {
             // The following code emulates slow initialization.
             try {
