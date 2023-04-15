@@ -8,7 +8,7 @@ public final class Singleton {
         private Singleton(String value) {
             // The following code emulates slow initialization.
             try {
-                Thread.sleep(1000);
+                Thread.sleep(2000);
             } catch (InterruptedException ex) {
                 ex.printStackTrace();
             }
